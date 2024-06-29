@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "npx npm@latest install -g npm",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm install --legacy-peer-deps"
+    "install": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
