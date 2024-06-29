@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "yarn install --force"
+    "postinstall": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
